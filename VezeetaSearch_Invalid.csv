@@ -1,0 +1,7 @@
+﻿Precondition,Action,Expected Result,Actual Result
+Go To www.vezeeta.com,Verify that searching by doctor name with a product name returns no results and displays an erorr message.,Erorr message should say no results,"Sorry we can't find any doctor that matches your search, please remove some of the filters to get results"
+,"1-Click on ""or search by name""",,
+,"2-Type a product name(watch,keyboard)",,
+,"Verify that searching with an unrelated term (for example, a cooking recipe) returns no results and displays an erorr message.",Erorr message should say no results,Shows Results For Doctors In different fileds 
+,"1-Click on ""or search by name""",,
+,"2-Type (Potatoes with Rosemary and Sea Salt, Banana Bread)",,
