@@ -9,6 +9,4 @@ Test scenarios and test cases for the doctor search feature, written manually.
 - Switching between the Telehealth and Book a Doctor tabs
 - Invalid searches (unrelated terms)
 
-**File:** [VezeetaSearch.xlsx](VezeetaSearch.xlsx)
-
 **Tools:** Excel
