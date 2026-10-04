@@ -1,0 +1,8 @@
+﻿Defect ID,Title,Steps To Reproduce,Expected Result,Actual Result,Seveirty,Test Enviorment
+#01,Doctor search by name returns doctors for an unrelated term instead of a no results message,1-Go To www.vezeeta.com,no results and a message says no results found.,results for different doctors are shown,Low,"Windows 10 on browser(brave,chrome)"
+,,2-Click insid 'or search by name' field,,,,
+,,3-Type an unrelated term ('Banana Bread'),,,,
+,,4-Click on the search button,,,,
+,,,,,,
+,,,,,,
+,,,,,,
