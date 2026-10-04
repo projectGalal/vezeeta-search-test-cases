@@ -1,4 +1,4 @@
-# Vezeeta Search: Test Cases
+# Vezeeta: Test Cases
 
 Test scenarios and test cases for the doctor search feature, written manually.
 
