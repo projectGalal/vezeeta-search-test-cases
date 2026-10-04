@@ -1,0 +1,21 @@
+﻿Test ID,Precondition,Action,Expected Result,Actual Result,Result
+ID#1,Go To www.vezeeta.com,Verify that the user can select a specialty from the Specialty list.,"The drop-down works, the specialties are shown, and the user can choose one. ""Dentistry"" is selected and displayed in the field.","The drop-down opened, the specialties were shown, and ""Dentistry"" was selected and displayed.",Passed
+,,1-Click on choose specialty drop down menu.,,,
+,,2-Choose specialty (Dentistry).,,,
+ID#2,,Verify that the user can select a city from the City list.,"The drop-down works, the cities are shown, and the user can choose one. ""Cairo"" is selected and displayed in the field.","The drop-down opened, the cities were shown, and ""Cairo"" was selected and displayed.",Passed
+,,1-Click on choose city drop down menu.,,,
+,,2-Choose a city (cairo).,,,
+ID#3,,Verify that the user can select an area from the Area list after choosing a city.,"The Area list shows the areas that belong to the selected city. ""Nasr City"" is selected and displayed in the field.","The Area list showed the areas of Cairo, and ""Nasr City"" was selected and displayed.",Passed
+,,1-Click on choose area drop down menu,,,
+,,2-Choose an area (Nasr City),,,
+ID#4,,Verify that the user can search by doctor name.,The field accepts the typed doctor name and displays it.,The name was accepted and displayed in the field.,Passed
+,,"1-Click on ""or serach by name"" field",,,
+,,2-Write a doctor name(Ahemd),,,
+ID#5,,Verify that the Search button works properly.,"The user is redirected to the search results page, which shows doctors that match the search.","The user was redirected to the results page, which showed matching doctors.",Passed
+,,1-Click on The Search Button,,,
+,,Verify that the user can switch between the Telehealth and Book a Doctor tabs.,"The page switches to the Telehealth form, then back to the Book a Doctor form. The active tab is highlighted each time.","The page switched to Telehealth and back to Book a Doctor, and the active tab was highlighted.",Passed
+ID#6,,1-Click on Telehealth,,,
+,,2-Click on Book a Doctor,,,
+,,Verify that the Telehealth feature works properly.,"The specialty list opens, the selection is accepted, and the user is redirected to results showing doctors who offer telehealth.","The specialty list opened, the selection was accepted, and telehealth results were shown.",Passed
+ID#7,,1-Click on choose specialty drop down menu.,,,
+,,2-Click on the search button,,,
